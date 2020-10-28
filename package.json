@@ -1,0 +1,25 @@
+{
+  "name": "sdk-google",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "engines": {
+    "node": "13.10.1"
+  },
+
+
+  "dependencies": {
+    "@sendgrid/mail": "^7.3.0",
+    "ejs": "^3.1.5",
+    "env-cmd": "^10.1.0",
+    "express": "^4.17.1",
+    "googleapis": "^61.0.0"
+  }, 
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "env-cmd -f ./config/dev.env node src/app.js"
+  },
+  "keywords": [],
+  "author": "Garry Shah",
+  "license": "ISC"
+}
